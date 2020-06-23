@@ -6,6 +6,7 @@ import 'package:provider_architecture/ui/shared/app_colors.dart';
 import 'package:provider_architecture/ui/shared/text_styles.dart';
 import 'package:provider_architecture/ui/shared/ui_helpers.dart';
 import 'package:provider_architecture/ui/widgets/comments.dart';
+import 'package:provider_architecture/ui/views/detail_view.dart';
 
 import 'package:provider_architecture/models/Record.dart';
 import 'package:provider_architecture/models/RecordList.dart';
@@ -20,7 +21,6 @@ class PostView extends StatefulWidget {
   }
 }
 
-
 class _PostView extends State<PostView> {
   //final Post post;
   //PostView({this.post});
@@ -33,7 +33,7 @@ class _PostView extends State<PostView> {
 
   Icon _searchIcon = new Icon(Icons.search);
 
-  Widget _appBarTitle = new Text("appTitle");
+  Widget _appBarTitle = new Text(appTitle);
 
   @override
   void initState() {
@@ -92,15 +92,6 @@ class _PostView extends State<PostView> {
         {
           _filteredRecords.records.add(_records.records[i]);
         }
-        /*
-          else if (_records.records[i].career[j].toLowerCase().contains(
-              _searchText.toLowerCase())
-              || _records.records[i].careersub[j].toLowerCase().contains(
-                  _searchText.toLowerCase())
-          {
-            _filteredRecords.records.add(_records.records[i]);
-          }
-        };*/
       };
     }
     return ListView(
@@ -156,8 +147,8 @@ class _PostView extends State<PostView> {
           trailing:
           Icon(Icons.keyboard_arrow_right, color: Color.fromRGBO(21, 48, 132, 1), size: 30.0),
           onTap: () {
-            //Navigator.push(
-               // context, MaterialPageRoute(builder: (context) => new DetailPage(record: record)));
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => new DetailPage(record: record)));
           },
         ),
       ),
@@ -199,7 +190,7 @@ class _PostView extends State<PostView> {
         );
       } else {
         this._searchIcon = new Icon(Icons.search);
-        this._appBarTitle = new Text("appTitle");
+        this._appBarTitle = new Text(appTitle);
         _filter.clear();
       }
     });
