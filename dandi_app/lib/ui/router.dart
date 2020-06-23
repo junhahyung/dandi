@@ -13,8 +13,8 @@ class Router {
       case '/login':
         return MaterialPageRoute(builder: (_) => LoginView());
       case '/post':
-        var post = settings.arguments as Post;
-        return MaterialPageRoute(builder: (_) => PostView(post: post));
+        //var post = settings.arguments as Post;
+        return MaterialPageRoute(builder: (_) => PostView());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(

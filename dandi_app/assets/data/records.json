@@ -1,0 +1,92 @@
+[
+  {
+    "name":"방유진",
+    "address":"한국과학기술원 재학",
+    "contact" : "12345678",
+    "photo": "https://i1.wp.com/www.pnwumc.org/news/wp-content/uploads/2015/04/john-wesley.jpg?fit=700%2C365&ssl=1",
+    "url": "http://www.john-wesley.com",
+    "country": "한국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  },
+  {
+    "name":"배희재",
+    "address":"한국과학기술원 재학",
+    "contact" : "12345678",
+    "photo": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/11/105322791-1531301768595gettyimages-467620670.1910x1000.jpg?v=1545151032",
+    "url": "https://www.microsoft.com",
+    "country": "한국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  },
+  {
+    "name":"이예진",
+    "address":"한국과학기술원 재학",
+    "contact" : "12345678",
+    "photo": "https://9to5mac.com/wp-content/uploads/sites/6/2019/01/Tim-Cook-Huawei.jpg?quality=82&strip=all&w=1500",
+    "url": "https://www.apple.com",
+    "country": "한국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  },
+  {
+    "name":"형준하",
+    "address":"한국과학기술원 재학",
+    "contact" : "12345678",
+    "photo": "https://timedotcom.files.wordpress.com/2018/01/mark-zuckerberg-new-years-resolution-facebook.jpg",
+    "url": "https://www.facebook.com",
+    "country": "한국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  },
+  {
+    "name":"권혁찬",
+    "address":"한국과학기술원 졸업",
+    "contact" : "12345678",
+    "photo": "https://img.etimg.com/thumb/msid-50318943,width-643,imgsize-337990,resizemode-4/four-things-even-google-doesnt-know-about-its-ceo-sundar-pichai.jpg",
+    "url": "https://www.google.com",
+    "country": "한국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  },
+  {
+    "name":"류석영",
+    "address":"한국과학기술원 교수",
+    "contact" : "12345678",
+    "photo": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/01/18/104225995-_95A5004.530x298.jpg?v=1540458420",
+    "url": "https://www.alibaba.com",
+    "country": "한국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  },
+  {
+    "name":"Daniel Kim",
+    "address":"한국과학기술원 교환학생",
+    "contact" : "12345678",
+    "photo": "https://media.newyorker.com/photos/5a666a6a6731fd1ea7517e21/master/w_727,c_limit/Angler-Im-Jeff-Bezos-Im-Your-Dad-Now.jpg",
+    "url": "https://www.amazon.com",
+    "country": "한국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  },
+  {
+    "name":"보노보노",
+    "address":"포항공대 재학",
+    "contact" : "12345678",
+    "photo": "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ffortunedotcom.files.wordpress.com%2F2016%2F09%2Fbob-swan.jpg&w=1600&q=70",
+    "url": "https://www.intel.com",
+    "country": "한국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  },
+  {
+    "name":"Ginni Rometty",
+    "address":"IBM",
+    "contact" : "12345678",
+    "photo": "https://moneyinc.com/wp-content/uploads/2018/07/ginni-rometty-700x467.jpg",
+    "url": "https://www.ibm.com",
+    "country": "미국",
+    "career" : ["하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"],
+    "careersub" : ["1","2","3","4","5","6","7","8","9"]
+  }
+]
